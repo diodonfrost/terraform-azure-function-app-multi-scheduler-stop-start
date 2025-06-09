@@ -1,6 +1,8 @@
 # terraform-azure-function-app-multi-scheduler-stop-start
 
-Terraform module that creates multiple Azure Function schedulers at once for stopping and starting Azure
+Terraform module that creates multiple Azure Function schedulers at once for stopping and starting Azure resources.
+
+This module is a wrapper around the [terraform-azure-function-app-scheduler-stop-start](https://github.com/diodonfrost/terraform-azure-function-app-scheduler-stop-start) module, allowing you to deploy multiple schedulers at once.
 
 ## Usage
 
